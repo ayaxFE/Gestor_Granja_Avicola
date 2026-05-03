@@ -666,7 +666,7 @@ class AppGranjaPando:
         ttk.Button(ventana, text="💾 Guardar Galpón", command=guardar_galpon).pack(pady=30)
         
 if __name__ == "__main__":
-    db_local.inicializar_db() # Aseguramos que las tablas existan al abrir
+    db_local.inicializar_db() 
     root = tk.Tk()
     app = AppGranjaPando(root)
     root.mainloop()
