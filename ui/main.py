@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from datetime import datetime
-import db_local
+import database.db_local as db_local
 
 class AppGranjaPando:
     def __init__(self, root):

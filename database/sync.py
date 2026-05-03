@@ -1,5 +1,5 @@
-import db_local
-import db_cloud
+import database.db_local as db_local
+import database.db_cloud as db_cloud
 
 def sincronizar_registros():
     print("Iniciando proceso de sincronización...")

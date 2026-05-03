@@ -1,5 +1,31 @@
 # Sistema de Control de Producción Avícola
 
+# ESTRUCTURA
+
+GESTOR_GRANJA_AVICOLA/
+│
+├── venv/               
+├── __pycache__/            
+│
+├── config/           
+│   ├── __init__.py      
+│   └── config.py        
+│
+├── database/              
+│   ├── __init__.py             
+│   ├── db_local.py            
+│   ├── db_cloud.py             
+│   ├── sync.py                
+│   └── granja_pando_local.db  
+│
+├── ui/               
+│   ├── __init__.py          
+│   └── main_window.py   
+│
+├── README.md             
+└── run.py                 
+
+
 ## Descripción del Proyecto
 Aplicación de escritorio desarrollada en Python orientada a la gestión operativa y analítica de granjas de pollos parrilleros. El sistema permite la trazabilidad completa del ciclo de producción, optimizando el registro de variables críticas como la mortandad y el consumo de alimento. 
 
@@ -39,3 +65,4 @@ La aplicación sigue una separación lógica de responsabilidades:
 ```bash
 git clone [https://github.com/moniVaz0923/SistemaDeControlDeProducci-nAvicola.git](https://github.com/moniVaz0923/SistemaDeControlDeProducci-nAvicola.git)
 cd SistemaDeControlDeProducci-nAvicola
+
